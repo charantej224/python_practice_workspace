@@ -1,4 +1,6 @@
-from python_practice_workspace.pytorch_train.custom_dataset import CustomDataset
+from pytorch_train.custom_dataset import CustomDataset
+import torchvision.transforms as transforms
+import matplotlib.pyplot as plt
 import torch
 
 custom_dataset = CustomDataset(
@@ -14,5 +16,9 @@ data_loader = torch.utils.data.DataLoader(custom_dataset,
                                           num_workers=num_workers
                                           )
 
-for images, label in data_loader:
-    print(label)
+for images, labels in data_loader:
+    # image shape is [batch_size, 3 (due to RGB), height, width]
+    img = transforms.ToPILImage()(images[0])
+    plt.imshow(img)
+    plt.show()
+    print(labels)
