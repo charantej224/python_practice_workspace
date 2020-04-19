@@ -6,7 +6,7 @@ from networkx.drawing.nx_agraph import to_agraph
 
 G = nx.DiGraph(directed=True)
 
-input_file = 'regular_output.csv'
+input_file = 'anova_output.csv'
 
 filtered_data_frame = pd.read_csv(input_file)
 
@@ -35,6 +35,6 @@ D = to_agraph(G)
 D.node_attr.update(color='blue', style='filled', fillcolor='yellow')
 D.edge_attr.update(color='blue', arrowsize=1)
 pos = D.layout('dot')
-D.draw('abcd.png')
+D.draw('new_anova.png')
 
 # pylab.show()
