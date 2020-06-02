@@ -1,0 +1,21 @@
+class_name,mAP score
+aeroplane,63.77
+bicycle,82.48
+bird,86.08
+boat,40.82
+bottle,40.52
+bus,74.21
+car,68.54
+cat,81.59
+chair,33.23
+cow,60.63
+diningtable,31.22
+dog,79.58
+horse,58.82
+motorbike,69.81
+person,63.37
+pottedplant,48.09
+sheep,50.90
+sofa,39.21
+train,84.62
+tvmonitor,58.18
