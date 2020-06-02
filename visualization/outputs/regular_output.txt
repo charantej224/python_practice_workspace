@@ -1,4 +1,4 @@
-class_name,mAP score
+class_name,mAP
 aeroplane,63.77
 bicycle,82.48
 bird,86.08
