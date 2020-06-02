@@ -4,13 +4,17 @@ import os
 
 
 def save_charts():
+    plt.xticks(rotation=90)
     file_list = os.listdir('outputs/')
     for processed_file in file_list:
         output_image = 'charts/' + processed_file.replace('_output.txt', '') + "_bar.png"
         df = pd.read_csv('outputs/' + processed_file)
         ax = plt.subplot(111)
         ax.bar(df['class_name'], df['mAP'], width=0.5, color='b', align='center')
-        # Fplt.show()
+
+
+        # plt.show()
+        # plt.figure(figsize=(8, 4))
         plt.savefig(output_image)
 
 
