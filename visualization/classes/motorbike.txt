@@ -1,0 +1,8 @@
+model_name,map_score
+anova,72.77
+scsm_v1,60.26
+dis-anova,71.94
+scsm_v2,70.83
+regular,69.81
+v2_category,70.5
+cccm,70.36

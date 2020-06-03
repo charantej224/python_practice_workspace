@@ -5,6 +5,7 @@ import os
 
 def save_charts():
     plt.xticks(rotation=90)
+    plt.gcf().subplots_adjust(bottom=0.25)
     file_list = os.listdir('outputs/')
     for processed_file in file_list:
         output_image = 'charts/' + processed_file.replace('_output.txt', '') + "_bar.png"
@@ -12,10 +13,21 @@ def save_charts():
         ax = plt.subplot(111)
         ax.bar(df['class_name'], df['mAP'], width=0.5, color='b', align='center')
 
-
         # plt.show()
         # plt.figure(figsize=(8, 4))
         plt.savefig(output_image)
+
+
+def save_charts_single(processed_output, x_label, y_label):
+    plt.xticks(rotation=90)
+    plt.gcf().subplots_adjust(bottom=0.25)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    output_image = 'charts/' + processed_output + "_bar.png"
+    df = pd.read_csv('outputs/' + processed_output + ".txt")
+    ax = plt.subplot(111)
+    ax.bar(df['model'], df['overall_map_score'], width=0.5, color='b', align='center')
+    plt.savefig(output_image)
 
 
 def process_files(input_list):
@@ -44,10 +56,18 @@ def read_inputs():
     return input_files
 
 
-if __name__ == '__main__':
+def deal_multiple():
     read_input_list = read_inputs()
     print(read_input_list)
     process_files(read_input_list)
     print('files processed, check output directory')
     save_charts()
     print('finished charts. fuck yoU!')
+
+
+def deal_single():
+    save_charts_single('Summary', 'models', 'mAP Summary')
+
+
+if __name__ == '__main__':
+    deal_single()
