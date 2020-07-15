@@ -1,0 +1,4 @@
+Co-occurances:
+the occurance based on the annotation file.
+
+Sementic - Based on the super category defined in the annotations.json.

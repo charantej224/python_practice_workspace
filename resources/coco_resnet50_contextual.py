@@ -60,7 +60,7 @@ def inference(threshold):
     df = pd.DataFrame(columns=column_names)
     artifact_path = 'Test-Artifacts/' + backbone + '/Contextual/' + str(threshold) + '/'
     output_path = artifact_path + 'output/'
-    csv_path = artifact_path + 'inference_metrics.csv'
+    csv_path = artifact_path + 'inference_metrics_co_occurances.csv'
     Path(output_path).mkdir(parents=True, exist_ok=True)
     print(output_path)
     if os.path.exists(csv_path):

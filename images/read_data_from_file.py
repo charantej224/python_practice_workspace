@@ -40,7 +40,7 @@ def convert_values(file_name):
         final_list.append(record_dict)
 
     final_df = pd.DataFrame(final_list, columns=['image_id', 'class_name', 'bboxes', 'scores'])
-    final_df.to_csv('inference_metrics.csv', index=False, header=True)
+    final_df.to_csv('inference_metrics_co_occurances.csv', index=False, header=True)
 
 
 def read_output():

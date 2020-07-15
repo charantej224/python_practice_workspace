@@ -4,7 +4,8 @@ from __future__ import absolute_import, division
 import random
 
 import mxnet as mx
-from image import plot_image
+from resources.image import plot_image
+
 
 def plot_bbox(img, bboxes, scores=None, labels=None, thresh=0.5,
               class_names=None, colors=None, ax=None,
@@ -75,11 +76,11 @@ def plot_bbox(img, bboxes, scores=None, labels=None, thresh=0.5,
     # use random colors if None is provided
     if colors is None:
         colors = dict()
-    score_list =[]
-    xmin1 =[]
-    ymin1 =[]
-    xmax1 =[]
-    ymax1=[]
+    score_list = []
+    xmin1 = []
+    ymin1 = []
+    xmax1 = []
+    ymax1 = []
     co_dict = {'coordinates': {'xmin': xmin1, 'ymin': ymin1, 'xmax': xmax1, 'ymax': ymax1}, 'scores': score_list}
     class_name = ''
     class_list = []
@@ -124,9 +125,4 @@ def plot_bbox(img, bboxes, scores=None, labels=None, thresh=0.5,
         class_id = colors[cls_id]
         print("current class list:", class_list)
 
-    return ax,co_dict, class_list, score, class_id, bboxes
-
-
-
-
-
+    return ax, co_dict, class_list, score, class_id, bboxes
