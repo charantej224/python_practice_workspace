@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 import numpy as np
-import skimage.io as io
 import pylab
 
 pylab.rcParams['figure.figsize'] = (10.0, 8.0)
@@ -14,7 +13,7 @@ print('Running demo for *%s* results.' % (annType))
 
 # initialize COCO ground truth api
 dataType = 'val2017'
-annFile = '/home/charan/Documents/research/annotations_trainval2017/annotations/%s_%s.json' % (prefix, dataType)
+annFile = '/home/charan/Documents/research/deep_lite/current_work/annotations_trainval2017/annotations/%s_%s.json' % (prefix, dataType)
 cocoGt = COCO(annFile)
 
 # initialize COCO detections api
