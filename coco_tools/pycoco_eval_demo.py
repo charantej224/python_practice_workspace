@@ -22,8 +22,8 @@ cocoGt = COCO(annFile)
 cocoDt = cocoGt.loadRes('output.json')
 
 imgIds = sorted(cocoGt.getImgIds())
-imgIds = imgIds[0:100]
-imgId = imgIds[np.random.randint(100)]
+#imgIds = imgIds[0:100]
+#imgId = imgIds[np.random.randint(100)]
 
 # running evaluation
 cocoEval = COCOeval(cocoGt, cocoDt, annType)

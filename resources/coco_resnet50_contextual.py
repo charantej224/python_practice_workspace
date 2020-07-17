@@ -1,6 +1,6 @@
 import ast
 
-from bbox_context import plot_bbox
+from resources.bbox_context import plot_bbox
 
 CLASSES = list({
                    1: u'person', 2: u'bicycle', 3: u'car', 4: u'motorcycle', 5: u'airplane', 6: u'bus', 7: u'train',

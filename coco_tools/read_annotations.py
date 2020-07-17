@@ -32,4 +32,6 @@ for each in categories_list:
     index_val = index_list.index(each['supercategory'])
     list_of_lists[index_val].append(each['name'])
 
-print(str(list_of_lists))
+for counter in range(len(index_list)):
+    string_val = " - ".join(list_of_lists[counter])
+    print(index_list[counter] + " === " + string_val)
