@@ -21,13 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="262b62a6-eb96-4342-a7d6-c953f05ee288" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/1000_image_annotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/1000_image_annotations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/image_ids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/image_ids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/image_ids_new.txt" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/image_ids_new.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/prepping_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/prepping_inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/pycoco_eval_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/pycoco_eval_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_toosl/string_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_toosl/string_check.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +53,8 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prepping_inference">
-    <configuration name="coco_resnet50_scsm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.excel_check">
+    <configuration name="excel_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string_toosl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resources/coco_resnet50_scsm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string_toosl/excel_check.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.excel_check" />
         <item itemvalue="Python.prepping_inference" />
         <item itemvalue="Python.pycoco_eval_demo" />
         <item itemvalue="Python.string_check" />
         <item itemvalue="Python.name_function" />
-        <item itemvalue="Python.coco_resnet50_scsm" />
       </list>
     </recent_temporary>
   </component>
