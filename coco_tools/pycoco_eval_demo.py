@@ -13,7 +13,8 @@ print('Running demo for *%s* results.' % (annType))
 
 # initialize COCO ground truth api
 dataType = 'val2017'
-annFile = '/home/charan/Documents/research/deep_lite/current_work/annotations_trainval2017/annotations/%s_%s.json' % (prefix, dataType)
+annFile = '/home/charan/Documents/research/deep_lite/current_work/annotations_trainval2017/annotations/%s_%s.json' % (
+    prefix, dataType)
 cocoGt = COCO(annFile)
 
 # initialize COCO detections api
@@ -21,13 +22,23 @@ cocoGt = COCO(annFile)
 # resFile = resFile % (dataDir, prefix, dataType, annType)
 cocoDt = cocoGt.loadRes('output.json')
 
+# imgIds = sorted(cocoGt.getImgIds())
 imgIds = sorted(cocoGt.getImgIds())
-#imgIds = imgIds[0:100]
-#imgId = imgIds[np.random.randint(100)]
+# imgIds = imgIds[0:100]
+# imgId = imgIds[np.random.randint(100)]
+
+import json
+
+with open('output.json', 'r') as f:
+    res_list = json.load(f)
+    new_img_ids = []
+    for each_val in res_list:
+        if each_val["image_id"] not in new_img_ids:
+            new_img_ids.append(each_val["image_id"])
 
 # running evaluation
 cocoEval = COCOeval(cocoGt, cocoDt, annType)
-cocoEval.params.imgIds = imgIds
+cocoEval.params.imgIds = new_img_ids
 cocoEval.evaluate()
 cocoEval.accumulate()
 cocoEval.summarize()

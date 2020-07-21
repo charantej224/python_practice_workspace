@@ -1,6 +1,6 @@
 import json
 
-source_annotation_file = '/home/charan/Documents/research/annotations_trainval2017/annotations/instances_val2017.json'
+source_annotation_file = '/home/charan/Documents/research/deep_lite/current_work/annotations_trainval2017/annotations/instances_val2017.json'
 
 content_dict_1000_images = {}
 
@@ -21,7 +21,7 @@ with open(source_annotation_file, 'r') as source:
 content_dict_1000_images['info'] = json_content['info']
 content_dict_1000_images['categories'] = json_content['categories']
 
-content_dict_1000_images['images'] = json_content['images'][:1000]
+content_dict_1000_images['images'] = json_content['images'][:500]
 images_list = []
 licenses_list = []
 annotations_list = []
@@ -36,8 +36,9 @@ for i in range(len(image_id_list)):
     image_id_list[i] = image_id_list[i].strip('\n')
 
 for image_dict in content_dict_1000_images['images']:
-    if image_dict['file_name'] in image_id_list:
-        images_list.append(image_dict)
+    images_list.append(image_dict)
+    # if image_dict['file_name'] in image_id_list:
+        # images_list.append(image_dict)
 
 content_dict_1000_images['images'] = images_list
 
@@ -57,7 +58,7 @@ for each_annotation_list in json_content['annotations']:
 content_dict_1000_images["licenses"] = licenses_list
 content_dict_1000_images["annotations"] = annotations_list
 
-with open('file_output_1000_images_new.json', 'w') as selected_images_json:
+with open('file_output_500_images_new.json', 'w') as selected_images_json:
     selected_images_json.write(pp_json(content_dict_1000_images))
 
 with open('image_ids_new.txt', 'w') as f:
@@ -72,4 +73,3 @@ print(f'num_categories list {num_categories}')
 print(f'num_licenses list {num_licenses}')
 print(f'num_annotations list {num_annotations}')
 print(f'num_images list {num_images}')
-
