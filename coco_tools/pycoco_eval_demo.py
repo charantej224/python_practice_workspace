@@ -27,18 +27,18 @@ imgIds = sorted(cocoGt.getImgIds())
 # imgIds = imgIds[0:100]
 # imgId = imgIds[np.random.randint(100)]
 
-import json
-
-with open('output.json', 'r') as f:
-    res_list = json.load(f)
-    new_img_ids = []
-    for each_val in res_list:
-        if each_val["image_id"] not in new_img_ids:
-            new_img_ids.append(each_val["image_id"])
+# import json
+#
+# with open('output.json', 'r') as f:
+#     res_list = json.load(f)
+#     new_img_ids = []
+#     for each_val in res_list:
+#         if each_val["image_id"] not in new_img_ids:
+#             new_img_ids.append(each_val["image_id"])
 
 # running evaluation
 cocoEval = COCOeval(cocoGt, cocoDt, annType)
-cocoEval.params.imgIds = new_img_ids
+cocoEval.params.imgIds = imgIds
 cocoEval.evaluate()
 cocoEval.accumulate()
 cocoEval.summarize()

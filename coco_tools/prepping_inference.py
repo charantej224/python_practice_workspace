@@ -10,7 +10,7 @@ cat_dict = category_df.set_index('object').to_dict()
 cat_dict = cat_dict['id']
 # print(cat_dict)
 
-inference_df = pd.read_csv('inference_metrics_scsm.csv')
+inference_df = pd.read_csv('inference_metrics_anova.csv')
 
 output_key1 = "image_id"
 output_key2 = "category_id"
