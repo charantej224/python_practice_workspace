@@ -1,6 +1,15 @@
 import ast
-
+import glob
+import time
+import pandas as pd
+import gluoncv as gcv
+import matplotlib.pyplot as plt
+from pathlib import Path
+from tqdm import tqdm
+import mxnet as mx
+import os
 from resources.bbox_context import plot_bbox
+import os.path as path
 
 CLASSES = list({
                    1: u'person', 2: u'bicycle', 3: u'car', 4: u'motorcycle', 5: u'airplane', 6: u'bus', 7: u'train',
@@ -28,17 +37,6 @@ print(ctx_list)
 # output_path = artifact_path +'output/'
 # Path(output_path).mkdir(parents=True, exist_ok=True)
 
-import glob
-
-import time
-
-import pandas as pd
-import gluoncv as gcv
-import matplotlib.pyplot as plt
-from pathlib import Path
-from tqdm import tqdm
-import mxnet as mx
-import os
 
 """# **1. Generate Test Datasets**"""
 img_directory = '/home/charan/Documents/research/deep_lite/current_work/val2017/'  # structure coco testset directory
@@ -51,6 +49,24 @@ print(imglist)
 *2b. Inferencing based on calculated thresholds
 """
 backbone = "test-2017"
+
+max_image_per_run = 1
+
+if path.exists("state.txt"):
+    with open("state.txt", "w") as f:
+        state = f.read()
+        if state != "completed":
+            print("script exited as instance of script is already running.")
+            exit(0)
+
+
+def write_file(state):
+    with open("state.txt", "w") as f:
+        f.write(state)
+        f.close()
+
+
+write_file("running")
 
 
 # edit: add threshold as a parameter in each class, create and save dataframes for each class
@@ -76,6 +92,7 @@ def inference(threshold):
         df_size = 0
     print(df_size)
 
+    counter = 0
     for index, filename in enumerate(tqdm(imglist)):
         if index < df_size:
             continue
@@ -91,13 +108,14 @@ def inference(threshold):
         for idx, group in enumerate(ctx_list):
             print("CURRENT MODEL: ", group)
             ctx = mx.gpu(0)
-            net = gcv.model_zoo.get_model('faster_rcnn_resnet50_v1b_coco', pretrained=True, ctx=ctx)
+            net = gcv.model_zoo.get_model('yolo3_darknet53_voc@416', pretrained=True, ctx=ctx)
             net.reset_class(classes=group, reuse_weights=group)
 
             x, image = gcv.data.transforms.presets.rcnn.load_test(img_path, 640)
             cids, scores, bboxes = net(x.as_in_context(ctx))
 
-            ax, co_dict, class_name, score, color, bbox = plot_bbox(image, bboxes[0], scores[0], cids[0], class_names=group,
+            ax, co_dict, class_name, score, color, bbox = plot_bbox(image, bboxes[0], scores[0], cids[0],
+                                                                    class_names=group,
                                                                     thresh=threshold)
             image_id = filename.split('/')[-1]
             coordinate_list = []
@@ -126,14 +144,20 @@ def inference(threshold):
             img_class_list += class_name
             img_bbox_list += coordinate_list
 
-        row_data = [[image_id, [width, height], img_class_list, str(time.time() - start_time), img_bbox_list, img_score_list]]
+        row_data = [
+            [image_id, [width, height], img_class_list, str(time.time() - start_time), img_bbox_list, img_score_list]]
         print(row_data)
         data_df = pd.DataFrame(row_data, columns=column_names)
         df = df.append(data_df, ignore_index=True)
         df.to_csv(csv_path, index=False)
         ctx.empty_cache()
+        counter += 1
+        if counter >= max_image_per_run:
+            break
 
     # break
     print(df)
 
+
 inference(0.8)
+write_file("completed")

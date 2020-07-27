@@ -35,3 +35,7 @@ for each in categories_list:
 for counter in range(len(index_list)):
     string_val = " - ".join(list_of_lists[counter])
     print(index_list[counter] + " === " + string_val)
+
+with open("semantic_context.txt","w") as f:
+    f.write(str(list_of_lists))
+    f.close()

@@ -14,3 +14,5 @@ if "name" in map_value:
         f.write(val)
         f.close()
     print(map_value["name"])
+import datetime
+print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
