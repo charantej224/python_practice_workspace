@@ -20,22 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="262b62a6-eb96-4342-a7d6-c953f05ee288" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coco_tools/disAnova_results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/inference_metrics_disAnova.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_416_Anova.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/yolo_416_anova_results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/yolo_416_co_occurance_results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/yolo_416_disAnova_results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/yolo_416_semantic_results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/yolo_regular_320_results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/yolo_regular_416_results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_tools/yolo_regular_results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco_tools/yolo_416_random_grouping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coco_tools/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coco_tools/prepping_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/prepping_inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/read_annotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/read_annotations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/coco_resnet50_contextual.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/coco_resnet50_contextual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_tools/string_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_tools/string_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/semantic_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/semantic_results.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +57,28 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pycoco_eval_demo_change">
+  <component name="RunManager" selected="Python.capture_yolo_images">
+    <configuration name="capture_yolo_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coco_tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coco_tools/capture_yolo_images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="prepping_inference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,37 +163,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_annotations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coco_tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coco_tools/read_annotations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pycoco_eval_demo_change" />
-        <item itemvalue="Python.prepping_inference_change" />
+        <item itemvalue="Python.capture_yolo_images" />
         <item itemvalue="Python.pycoco_eval_demo" />
         <item itemvalue="Python.prepping_inference" />
-        <item itemvalue="Python.read_annotations" />
+        <item itemvalue="Python.pycoco_eval_demo_change" />
+        <item itemvalue="Python.prepping_inference_change" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -214,42 +204,42 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1595547420112" />
-    <state x="1040" y="203" key="#xdebugger.evaluate" timestamp="1595293943898">
+    <state x="1040" y="203" key="#xdebugger.evaluate" timestamp="1596076682564">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1040" y="203" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1595293943898" />
-    <state width="1830" height="278" key="GridCell.Tab.0.bottom" timestamp="1595883737037">
+    <state x="1040" y="203" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1596076682564" />
+    <state width="1830" height="278" key="GridCell.Tab.0.bottom" timestamp="1596076835444">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1595883737037" />
-    <state width="1830" height="278" key="GridCell.Tab.0.center" timestamp="1595883737037">
+    <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596076835444" />
+    <state width="1830" height="278" key="GridCell.Tab.0.center" timestamp="1596076835444">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1595883737037" />
-    <state width="1830" height="278" key="GridCell.Tab.0.left" timestamp="1595883737037">
+    <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596076835444" />
+    <state width="1830" height="278" key="GridCell.Tab.0.left" timestamp="1596076835444">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1595883737037" />
-    <state width="1830" height="278" key="GridCell.Tab.0.right" timestamp="1595883737037">
+    <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596076835444" />
+    <state width="1830" height="278" key="GridCell.Tab.0.right" timestamp="1596076835444">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1595883737037" />
-    <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1595547406851">
+    <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596076835444" />
+    <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1596076721267">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1595547406851" />
-    <state width="1830" height="344" key="GridCell.Tab.1.center" timestamp="1595547406851">
+    <state width="1830" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596076721267" />
+    <state width="1830" height="344" key="GridCell.Tab.1.center" timestamp="1596076721266">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1595547406851" />
-    <state width="1830" height="344" key="GridCell.Tab.1.left" timestamp="1595547406851">
+    <state width="1830" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596076721266" />
+    <state width="1830" height="344" key="GridCell.Tab.1.left" timestamp="1596076721266">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1595547406851" />
-    <state width="1830" height="344" key="GridCell.Tab.1.right" timestamp="1595547406851">
+    <state width="1830" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596076721266" />
+    <state width="1830" height="344" key="GridCell.Tab.1.right" timestamp="1596076721266">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1595547406851" />
+    <state width="1830" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596076721266" />
     <state width="926" height="527" key="XDebugger.FullValuePopup" timestamp="1595292980604">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -272,6 +262,11 @@
           <url>file://$PROJECT_DIR$/string_tools/string_check.py</url>
           <line>12</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/coco_tools/capture_yolo_images.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
