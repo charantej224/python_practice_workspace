@@ -20,8 +20,8 @@ cocoGt = COCO(annFile)
 # initialize COCO detections api
 # resFile = '%s/results/%s_%s_fake%s100_results.json'
 # resFile = resFile % (dataDir, prefix, dataType, annType)
-cocoDt = cocoGt.loadRes('output.json')
-
+# cocoDt = cocoGt.loadRes('output.json')
+cocoDt = cocoGt.loadRes('output-semantic.json')
 # imgIds = sorted(cocoGt.getImgIds())
 imgIds = sorted(cocoGt.getImgIds())
 # imgIds = imgIds[0:100]
