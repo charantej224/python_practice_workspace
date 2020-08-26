@@ -21,40 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="262b62a6-eb96-4342-a7d6-c953f05ee288" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_anova.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_co_occurances.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_disAnova.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_lite.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_random.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_regular.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_scsm.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_semantic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output-ANOVA.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output-DISANOVA.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output-co_occurrences.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output-regular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output-semantic.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/coco_tools/prepping_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/prepping_inference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coco_tools/pycoco_eval_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/pycoco_eval_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/random_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/regular_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/semantic_context.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/semantic_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/automate_process.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/confusion_metrics/identify_confused.py" beforeDir="false" afterPath="$PROJECT_DIR$/confusion_metrics/identify_confused.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-ANOVA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-COOCCURRENCES.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-DISANOVA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-REGULAR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-SEMANTIC-CATEGORICAL GROUPING.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101_confusion.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-ANOVA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-COOCCURRENCES.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-DISANOVA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-REGULAR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-SEMANTIC-CATEGORICAL GROUPING.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50_confusion.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +48,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/confusion_metrics/resnet101" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/coco_tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/confusion_metrics/resnet101" />
-      <recent name="$PROJECT_DIR$/coco_tools" />
-      <recent name="$PROJECT_DIR$/confusion_metrics" />
-      <recent name="$PROJECT_DIR$/resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sort_coco_inferences" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coco_tools" />
+      <recent name="$PROJECT_DIR$/confusion_metrics/resnet101" />
+      <recent name="$PROJECT_DIR$/confusion_metrics" />
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Python.identify_confused">
@@ -247,38 +216,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1680" height="506" key="DebuggerActiveHint/67.27.1853.1053@67.27.1853.1053" timestamp="1598062030086" />
-    <state width="1830" height="278" key="GridCell.Tab.0.bottom" timestamp="1598400113595">
+    <state width="1830" height="344" key="GridCell.Tab.0.bottom" timestamp="1598478146122">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598400113595" />
-    <state width="1830" height="278" key="GridCell.Tab.0.center" timestamp="1598400113594">
+    <state width="1830" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146122" />
+    <state width="1830" height="344" key="GridCell.Tab.0.center" timestamp="1598478146122">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598400113594" />
-    <state width="1830" height="278" key="GridCell.Tab.0.left" timestamp="1598400113594">
+    <state width="1830" height="344" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146122" />
+    <state width="1830" height="344" key="GridCell.Tab.0.left" timestamp="1598478146122">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598400113594" />
-    <state width="1830" height="278" key="GridCell.Tab.0.right" timestamp="1598400113594">
+    <state width="1830" height="344" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146122" />
+    <state width="1830" height="344" key="GridCell.Tab.0.right" timestamp="1598478146122">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598400113594" />
-    <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1598062502483">
+    <state width="1830" height="344" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146122" />
+    <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1598478146123">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598062502483" />
-    <state width="1830" height="344" key="GridCell.Tab.1.center" timestamp="1598062502482">
+    <state width="1830" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146123" />
+    <state width="1830" height="344" key="GridCell.Tab.1.center" timestamp="1598478146123">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598062502482" />
-    <state width="1830" height="344" key="GridCell.Tab.1.left" timestamp="1598062502482">
+    <state width="1830" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146123" />
+    <state width="1830" height="344" key="GridCell.Tab.1.left" timestamp="1598478146123">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598062502482" />
-    <state width="1830" height="344" key="GridCell.Tab.1.right" timestamp="1598062502482">
+    <state width="1830" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146123" />
+    <state width="1830" height="344" key="GridCell.Tab.1.right" timestamp="1598478146123">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598062502482" />
+    <state width="1830" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146123" />
     <state width="926" height="527" key="XDebugger.FullValuePopup" timestamp="1598061997285">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -310,6 +279,11 @@
           <url>file://$PROJECT_DIR$/coco_tools/capture_yolo_images.py</url>
           <line>36</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/confusion_metrics/identify_confused.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
