@@ -2,13 +2,14 @@ import pandas as pd
 from xlwt import Workbook
 import os
 
-resnet50_list = os.listdir("resnet50")
-resnet101_list = os.listdir("resnet101")
+current_run_folder = "resnet101/"
+
+resnet_files_list = os.listdir(current_run_folder)
 
 df_dict = {}
 
-for each in resnet50_list:
-    data_frame = pd.read_csv("resnet50/" + each)
+for each in resnet_files_list:
+    data_frame = pd.read_csv(current_run_folder + each)
     data_frame = data_frame.drop(index=80)
     data_frame = data_frame.drop("other", axis=1)
     classes = data_frame['Ground_Truth'].tolist()
@@ -33,7 +34,7 @@ for each in resnet50_list:
     output_dataframe = pd.DataFrame(row_list, columns=['actual_class', 'predicted_class', 'value'])
     output_dataframe = output_dataframe.sort_values(by=['value'], ascending=False)
     output_dataframe = output_dataframe.reset_index(drop=True)
-    output_dataframe1 = pd.DataFrame.from_dict(class_confusion_rate, orient='index',columns=["confusions_involved"])
+    output_dataframe1 = pd.DataFrame.from_dict(class_confusion_rate, orient='index', columns=["confusions_involved"])
     output_dataframe1 = output_dataframe1.sort_values(by=['confusions_involved'], ascending=False)
     # output_dataframe1 = output_dataframe1.reset_index(drop=True)
 
@@ -41,7 +42,6 @@ for each in resnet50_list:
     df_dict[each + "_confusion_rates"] = output_dataframe1
     print(f'finished {each}')
 
-with pd.ExcelWriter('resnet50_confusion.xlsx', engine="openpyxl", mode='w') as writer:
+with pd.ExcelWriter(current_run_folder.replace("/", "") + '.xlsx', engine="openpyxl", mode='w') as writer:
     for key, value in df_dict.items():
         value.to_excel(writer, sheet_name=key)
-

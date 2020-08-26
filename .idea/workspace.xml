@@ -21,43 +21,40 @@
   <component name="ChangeListManager">
     <list default="true" id="262b62a6-eb96-4342-a7d6-c953f05ee288" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo3_416_random_grouping.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_416_Anova.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_416_anova.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_416_co_occurance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_416_disAnova.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_416_regular.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_416_semantic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_regular.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_regular_320.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_yolo_regular_416.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_Sementic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_anova.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_co_occurances.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_disAnova.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_original.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_random.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_regular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_scsm.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_yolo_416_Anova.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_yolo_416_co_occurance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_yolo_416_disAnova.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_yolo_416_random_grouping.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_yolo_416_semantic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_yolo_regular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_yolo_regular_320.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/output_yolo_regular_416.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_anova.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_co_occurances.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_disAnova.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_lite.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_random.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_regular.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_scsm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/inference_metrics_semantic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/output-ANOVA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/output-DISANOVA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/output-co_occurrences.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/output-regular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/output-semantic.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/coco_tools/prepping_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/prepping_inference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coco_tools/pycoco_eval_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/pycoco_eval_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/yolo_416_anova_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/yolo_416_co_occurance_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/yolo_416_disAnova_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/yolo_416_random_grouping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/yolo_416_semantic_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/yolo_regular_320_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/yolo_regular_416_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco_tools/yolo_regular_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/random_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/regular_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/semantic_context.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coco_tools/semantic_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/automate_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/identify_confused.py" beforeDir="false" afterPath="$PROJECT_DIR$/confusion_metrics/identify_confused.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-ANOVA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-COOCCURRENCES.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-DISANOVA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-REGULAR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-SEMANTIC-CATEGORICAL GROUPING.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101_confusion.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-ANOVA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-COOCCURRENCES.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-DISANOVA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-REGULAR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50/confusion_matrix-SEMANTIC-CATEGORICAL GROUPING.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet50_confusion.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +79,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/confusion_metrics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/confusion_metrics/resnet101" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/confusion_metrics" />
+      <recent name="$PROJECT_DIR$/confusion_metrics/resnet101" />
       <recent name="$PROJECT_DIR$/coco_tools" />
+      <recent name="$PROJECT_DIR$/confusion_metrics" />
       <recent name="$PROJECT_DIR$/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sort_coco_inferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.automate_process">
+  <component name="RunManager" selected="Python.identify_confused">
     <configuration name="automate_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,27 +114,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="count_coco_objects" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sort_coco_inferences" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort_coco_inferences/count_coco_objects.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="identify_confused" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +127,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/confusion_metrics/identify_confused.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_ast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string_tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string_tools/load_ast.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.automate_process" />
         <item itemvalue="Python.identify_confused" />
         <item itemvalue="Python.pycoco_eval_demo" />
-        <item itemvalue="Python.count_coco_objects" />
         <item itemvalue="Python.prepping_inference" />
+        <item itemvalue="Python.load_ast" />
+        <item itemvalue="Python.automate_process" />
       </list>
     </recent_temporary>
   </component>
@@ -237,10 +235,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598045623660">
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598399825963">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598045623660" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598399825963" />
     <state x="1040" y="203" key="#xdebugger.evaluate" timestamp="1598051814025">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -249,22 +247,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1680" height="506" key="DebuggerActiveHint/67.27.1853.1053@67.27.1853.1053" timestamp="1598062030086" />
-    <state width="1830" height="278" key="GridCell.Tab.0.bottom" timestamp="1598063503961">
+    <state width="1830" height="278" key="GridCell.Tab.0.bottom" timestamp="1598400113595">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598063503961" />
-    <state width="1830" height="278" key="GridCell.Tab.0.center" timestamp="1598063503960">
+    <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598400113595" />
+    <state width="1830" height="278" key="GridCell.Tab.0.center" timestamp="1598400113594">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598063503960" />
-    <state width="1830" height="278" key="GridCell.Tab.0.left" timestamp="1598063503960">
+    <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598400113594" />
+    <state width="1830" height="278" key="GridCell.Tab.0.left" timestamp="1598400113594">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598063503960" />
-    <state width="1830" height="278" key="GridCell.Tab.0.right" timestamp="1598063503960">
+    <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598400113594" />
+    <state width="1830" height="278" key="GridCell.Tab.0.right" timestamp="1598400113594">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598063503960" />
+    <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598400113594" />
     <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1598062502483">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
