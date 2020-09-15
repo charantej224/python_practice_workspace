@@ -4,10 +4,10 @@ import os
 gt_path = "/home/charan/Documents/research/deep_lite/current_work/annotations_trainval2017/annotations/instances_val2017.json"
 # output_path = "/home/charan/Documents/task_to_do/JSON scripts"
 output_path = "/home/charan/Documents/verify"
-# backbones = ["resnet50", "resnet101"]
+# backbones = ["resnet50_0.001", "resnet101"]
 
 
-backbones = ["resnet50"]
+backbones = ["resnet50_0.001"]
 
 
 def count_ground_truth():

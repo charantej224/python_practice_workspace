@@ -2,7 +2,7 @@ import pandas as pd
 from xlwt import Workbook
 import os
 
-current_run_folder = "resnet101/"
+current_run_folder = "resnet50_0.001/"
 
 resnet_files_list = os.listdir(current_run_folder)
 
@@ -37,13 +37,13 @@ for each in resnet_files_list:
     max_val, min_val = output_dataframe["value"].max(), output_dataframe["value"].min()
     output_dataframe["normalized"] = (output_dataframe["value"] - min_val) / (max_val - min_val)
     output_dataframe["normalized"] = output_dataframe["normalized"].round(decimals=2)
-    output_dataframe.to_csv("confused_pairs.csv",index=False)
+    # output_dataframe.to_csv("confused_pairs.csv", index=False)
     output_dataframe1 = pd.DataFrame.from_dict(class_confusion_rate, orient='index', columns=["confusions_involved"])
     output_dataframe1 = output_dataframe1.sort_values(by=['confusions_involved'], ascending=False)
     # output_dataframe1 = output_dataframe1.reset_index(drop=True)
 
-    df_dict[each] = output_dataframe
-    df_dict[each + "_confusion_rates"] = output_dataframe1
+    df_dict[each.replace("confusion_matrix-", "")] = output_dataframe
+    df_dict[each.replace("confusion_matrix-", "") + "_confusion_rates"] = output_dataframe1
     print(f'finished {each}')
 
 with pd.ExcelWriter(current_run_folder.replace("/", "") + '.xlsx', engine="openpyxl", mode='w') as writer:

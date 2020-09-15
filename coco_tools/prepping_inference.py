@@ -10,7 +10,7 @@ cat_dict = category_df.set_index('object').to_dict()
 cat_dict = cat_dict['id']
 # print(cat_dict)
 
-inference_name = "0.001_regular_inference_metrics.csv"
+inference_name = "0.001_semantic_inference_metrics.csv"
 output = inference_name.replace("_inference_metrics.csv", ".json")
 
 inference_df = pd.read_csv(inference_name)

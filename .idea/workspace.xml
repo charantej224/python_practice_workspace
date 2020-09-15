@@ -23,7 +23,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coco_tools/prepping_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/prepping_inference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coco_tools/pycoco_eval_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/coco_tools/pycoco_eval_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/confused_pairs.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/confusion_metrics/identify_confused.py" beforeDir="false" afterPath="$PROJECT_DIR$/confusion_metrics/identify_confused.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confusion_metrics/resnet101/confusion_matrix-composite_charan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort_coco_inferences/count_coco_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort_coco_inferences/count_coco_objects.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +52,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/coco_tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/transforms" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/texture_analysis" />
       <recent name="$PROJECT_DIR$/sort_coco_inferences" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/transforms" />
+      <recent name="$PROJECT_DIR$/confusion_metrics/resnet50" />
+      <recent name="$PROJECT_DIR$/confusion_metrics/0.001_predictions" />
       <recent name="$PROJECT_DIR$/coco_tools" />
       <recent name="$PROJECT_DIR$/confusion_metrics/resnet101" />
-      <recent name="$PROJECT_DIR$/confusion_metrics" />
-      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.identify_confused">
-    <configuration name="automate_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.wavelet_transform">
+    <configuration name="confusion_matrix_generation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +80,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/confusion_metrics/automate_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/confusion_metrics/confusion_matrix_generation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="features_texture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/texture_analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/texture_analysis/features_texture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,48 +131,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="load_ast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string_tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string_tools/load_ast.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="prepping_inference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coco_tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coco_tools/prepping_inference.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="pycoco_eval_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,13 +152,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wavelet_transform" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/transforms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transforms/wavelet_transform.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wavelet_transform" />
+        <item itemvalue="Python.features_texture" />
         <item itemvalue="Python.identify_confused" />
+        <item itemvalue="Python.confusion_matrix_generation" />
         <item itemvalue="Python.pycoco_eval_demo" />
-        <item itemvalue="Python.prepping_inference" />
-        <item itemvalue="Python.load_ast" />
-        <item itemvalue="Python.automate_process" />
       </list>
     </recent_temporary>
   </component>
@@ -204,54 +210,58 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598399825963">
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600105393555">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598399825963" />
-    <state x="1040" y="203" key="#xdebugger.evaluate" timestamp="1598051814025">
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600105393555" />
+    <state x="1040" y="203" key="#xdebugger.evaluate" timestamp="1600194343784">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1040" y="203" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1598051814025" />
+    <state x="1040" y="203" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1600194343784" />
     <state width="1680" height="506" key="DebuggerActiveHint" timestamp="1598062030086">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1680" height="506" key="DebuggerActiveHint/67.27.1853.1053@67.27.1853.1053" timestamp="1598062030086" />
-    <state width="1830" height="344" key="GridCell.Tab.0.bottom" timestamp="1598478146122">
+    <state width="1810" height="343" key="GridCell.Tab.0.bottom" timestamp="1600194382691">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146122" />
-    <state width="1830" height="344" key="GridCell.Tab.0.center" timestamp="1598478146122">
+    <state width="1810" height="343" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600194382691" />
+    <state width="1810" height="343" key="GridCell.Tab.0.center" timestamp="1600194382691">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146122" />
-    <state width="1830" height="344" key="GridCell.Tab.0.left" timestamp="1598478146122">
+    <state width="1810" height="343" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600194382691" />
+    <state width="1810" height="343" key="GridCell.Tab.0.left" timestamp="1600194382691">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146122" />
-    <state width="1830" height="344" key="GridCell.Tab.0.right" timestamp="1598478146122">
+    <state width="1810" height="343" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600194382691" />
+    <state width="1810" height="343" key="GridCell.Tab.0.right" timestamp="1600194382691">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146122" />
-    <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1598478146123">
+    <state width="1810" height="343" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600194382691" />
+    <state width="1810" height="343" key="GridCell.Tab.1.bottom" timestamp="1600194383508">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146123" />
-    <state width="1830" height="344" key="GridCell.Tab.1.center" timestamp="1598478146123">
+    <state width="1810" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600194383508" />
+    <state width="1810" height="343" key="GridCell.Tab.1.center" timestamp="1600194383508">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146123" />
-    <state width="1830" height="344" key="GridCell.Tab.1.left" timestamp="1598478146123">
+    <state width="1810" height="343" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600194383508" />
+    <state width="1810" height="343" key="GridCell.Tab.1.left" timestamp="1600194383507">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146123" />
-    <state width="1830" height="344" key="GridCell.Tab.1.right" timestamp="1598478146123">
+    <state width="1810" height="343" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600194383507" />
+    <state width="1810" height="343" key="GridCell.Tab.1.right" timestamp="1600194383508">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598478146123" />
-    <state width="926" height="527" key="XDebugger.FullValuePopup" timestamp="1598061997285">
+    <state width="1810" height="343" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600194383508" />
+    <state width="926" height="527" key="XDebugger.FullValuePopup" timestamp="1600194341095">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="926" height="527" key="XDebugger.FullValuePopup/67.27.1853.1053@67.27.1853.1053" timestamp="1598061997285" />
+    <state width="926" height="527" key="XDebugger.FullValuePopup/67.27.1853.1053@67.27.1853.1053" timestamp="1600194341095" />
+    <state x="506" y="265" width="945" height="576" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600194475341">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="506" y="265" width="945" height="576" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1600194475341" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1596146678038">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -284,6 +294,26 @@
           <url>file://$PROJECT_DIR$/confusion_metrics/identify_confused.py</url>
           <line>37</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/texture_analysis/features_texture.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transforms/wavelet_transform.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transforms/wavelet_transform.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transforms/wavelet_transform.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
