@@ -28,9 +28,12 @@ def w2d(img, mode='haar', level=1):
 
     cv2.imshow('image', imArray_H)
     # cv2.imshow('image', numpy_vertical_concat)
-    cv2.imwrite("result_level.png", imArray_H)
+    cv2.imwrite(each.replace(".jpg", "_changed2.jpg"), imArray_H)
     # cv2.waitKey(0)
     cv2.destroyAllWindows()
 
 
-w2d("test.jpeg", 'db1', 4)
+image_list = ["000000000139.jpg", "000000000285.jpg", "000000000632.jpg", "000000000724.jpg"]
+
+for each in image_list:
+    w2d(each, 'db1', 2)
