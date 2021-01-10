@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="262b62a6-eb96-4342-a7d6-c953f05ee288" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_practice_workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_practice_workspace.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,23 +47,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/transforms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataframe_neighbornets" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/texture_analysis" />
-      <recent name="$PROJECT_DIR$/sort_coco_inferences" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chara\Documents\workspaces\python_workspaces\python_practice_workspace\dataframe_neighbornets" />
       <recent name="$PROJECT_DIR$/transforms" />
       <recent name="$PROJECT_DIR$/confusion_metrics/resnet50" />
       <recent name="$PROJECT_DIR$/confusion_metrics/0.001_predictions" />
       <recent name="$PROJECT_DIR$/coco_tools" />
-      <recent name="$PROJECT_DIR$/confusion_metrics/resnet101" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/texture_analysis" />
+      <recent name="$PROJECT_DIR$/sort_coco_inferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.process_webscraping">
-    <configuration name="dataframe_satisfactory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.data_311">
+    <configuration name="data_311" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/dataframe_satisfactory.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/data_311.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,28 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="features_texture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/texture_analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/texture_analysis/features_texture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="process_webscraping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="desc_311" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/process_webscraping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/desc_311.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scrap_wiki" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="new_df_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webscraping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataframe_neighbornets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webscraping/scrap_wiki.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/new_df_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wavelet_transform" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="split_neighborhoods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,11 +135,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/transforms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataframe_neighbornets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transforms/wavelet_transform.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/split_neighborhoods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webscraping_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataframe_neighbornets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/webscraping_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.process_webscraping" />
-        <item itemvalue="Python.scrap_wiki" />
-        <item itemvalue="Python.dataframe_satisfactory" />
-        <item itemvalue="Python.wavelet_transform" />
-        <item itemvalue="Python.features_texture" />
+        <item itemvalue="Python.data_311" />
+        <item itemvalue="Python.desc_311" />
+        <item itemvalue="Python.new_df_analysis" />
+        <item itemvalue="Python.webscraping_data" />
+        <item itemvalue="Python.split_neighborhoods" />
       </list>
     </recent_temporary>
   </component>
@@ -203,62 +206,72 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600105393555">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="574" y="303" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1609078410968">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600105393555" />
-    <state x="1040" y="203" key="#xdebugger.evaluate" timestamp="1604362019917">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="574" y="303" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1609078410968" />
+    <state x="506" y="87" key="#xdebugger.evaluate" timestamp="1610206065096">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="506" y="87" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1610206065096" />
     <state x="1040" y="203" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1604362019917" />
-    <state width="1680" height="506" key="DebuggerActiveHint" timestamp="1598062030086">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1610206817756">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1680" height="506" key="DebuggerActiveHint/67.27.1853.1053@67.27.1853.1053" timestamp="1598062030086" />
-    <state width="1830" height="343" key="GridCell.Tab.0.bottom" timestamp="1604362042337">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610206817756" />
     <state width="1830" height="343" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1604362042337" />
-    <state width="1830" height="343" key="GridCell.Tab.0.center" timestamp="1604362042337">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1610206817756">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610206817756" />
     <state width="1830" height="343" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1604362042337" />
-    <state width="1830" height="343" key="GridCell.Tab.0.left" timestamp="1604362042336">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1610206817756">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610206817756" />
     <state width="1830" height="343" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1604362042336" />
-    <state width="1830" height="343" key="GridCell.Tab.0.right" timestamp="1604362042337">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1610206817756">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610206817756" />
     <state width="1830" height="343" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1604362042337" />
-    <state width="1830" height="343" key="GridCell.Tab.1.bottom" timestamp="1604362042337">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1610206807470">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610206807470" />
     <state width="1830" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1604362042337" />
-    <state width="1830" height="343" key="GridCell.Tab.1.center" timestamp="1604362042337">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1610206807470">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610206807470" />
     <state width="1830" height="343" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1604362042337" />
-    <state width="1830" height="343" key="GridCell.Tab.1.left" timestamp="1604362042337">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1610206807470">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610206807470" />
     <state width="1830" height="343" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1604362042337" />
-    <state width="1830" height="343" key="GridCell.Tab.1.right" timestamp="1604362042337">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1610206807470">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610206807470" />
     <state width="1830" height="343" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1604362042337" />
-    <state width="926" height="527" key="XDebugger.FullValuePopup" timestamp="1601574375096">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1609082424486">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609082424486" />
+    <state width="768" height="413" key="XDebugger.FullValuePopup" timestamp="1610205242436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="768" height="413" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1610205242436" />
     <state width="926" height="527" key="XDebugger.FullValuePopup/67.27.1853.1053@67.27.1853.1053" timestamp="1601574375096" />
-    <state x="506" y="265" width="945" height="576" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600194475341">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1609013472444">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="506" y="265" width="945" height="576" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1600194475341" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1596146678038">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609013472444" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609412485764">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1596146678038" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609412485764" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -322,6 +335,46 @@
           <url>file://$PROJECT_DIR$/dataframe_neighbornets/process_webscraping.py</url>
           <line>18</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataframe_neighbornets/new_df_analysis.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataframe_neighbornets/step2_processing.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataframe_neighbornets/step2_processing.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataframe_neighbornets/split_neighborhoods.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataframe_neighbornets/split_neighborhoods.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataframe_neighbornets/webscraping_data.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataframe_neighbornets/desc_311.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataframe_neighbornets/desc_311.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
