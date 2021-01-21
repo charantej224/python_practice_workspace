@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 import threading
+import numpy as np
 
 file_path = "/home/charan/DATA/311_Data/Boundary_analysis/1672BG_Shape.json"
 df_path = "/home/charan/DATA/311_Data/Boundary_analysis/311_call_data.csv"
@@ -59,9 +60,30 @@ def stats_data():
         total = each_df.shape[0]
         not_map_percent = round(not_mapped / total, 2)
         map_percent = round(mapped / total, 2)
-        print(f'{each},{total},{mapped},{map_percent*100},{not_mapped},{not_map_percent*100}')
+        print(f'{each},{total},{mapped},{map_percent * 100},{not_mapped},{not_map_percent * 100}')
     print("finished")
 
 
+def stats_data1():
+    df_path = "/home/charan/DATA/311_Data/311_Block_Group_Processed.csv"
+    block_data = pd.read_csv(df_path)
+    block_id_list = list(block_data.block_id.unique())
+    counter = 0
+    for each in block_id_list:
+        if not np.isnan(each):
+            print(f'{counter},"{int(each)}"')
+            counter += 1
+
+
+def stats_data2():
+    df_path = "/home/charan/DATA/311_Data/311_Block_Group_Processed.csv"
+    block_data = pd.read_csv(df_path)
+    block_id_list = list(block_data.block_id.unique())
+    for each in block_id_list:
+        if not np.isnan(each):
+            each_df = block_data[block_data.block_id == each]
+            print(f'"{int(each)}","{each_df.shape[0]}"')
+
+
 if __name__ == '__main__':
-    stats_data()
+    stats_data2()
