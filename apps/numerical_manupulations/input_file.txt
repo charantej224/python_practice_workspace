@@ -1,4 +1,0 @@
-team,win,lost
-india,8,2
-windies, 5, 5
-australia, 7,3

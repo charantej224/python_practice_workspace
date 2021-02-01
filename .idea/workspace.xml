@@ -61,7 +61,7 @@
       <recent name="$PROJECT_DIR$/sort_coco_inferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.311_data_errrors">
+  <component name="RunManager" selected="Python.semantic_similiarty">
     <configuration name="311_data_errrors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_311" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="anlayze_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataframe_neighbornets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/311_visualization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/data_311.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/311_visualization/anlayze_visual.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="desc_311" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="semantic_similiarty" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataframe_neighbornets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/similiary" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataframe_neighbornets/desc_311.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/similiary/semantic_similiarty.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.semantic_similiarty" />
+        <item itemvalue="Python.anlayze_visual" />
         <item itemvalue="Python.311_data_errrors" />
         <item itemvalue="Python.311_dept_analysis" />
         <item itemvalue="Python.data_311_Thread" />
-        <item itemvalue="Python.data_311" />
-        <item itemvalue="Python.desc_311" />
       </list>
     </recent_temporary>
   </component>
@@ -315,6 +315,11 @@
           <url>file://$PROJECT_DIR$/dataframe_neighbornets/311_data_errrors.py</url>
           <line>39</line>
           <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/311_visualization/anlayze_visual.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
