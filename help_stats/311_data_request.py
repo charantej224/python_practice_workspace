@@ -50,4 +50,4 @@ def full_data():
 
 
 if __name__ == '__main__':
-    full_data()
+    desc_data()
